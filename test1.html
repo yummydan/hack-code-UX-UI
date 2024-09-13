@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose URL or Upload File</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Choose to Submit URL or Upload a File</h2>
+    
+    <form id="dataForm">
+        <label for="choice">Choose an option:</label>
+        <select id="choice" name="choice" required>
+            <option value="">--Select--</option>
+            <option value="url">Submit URL</option>
+            <option value="file">Upload File</option>
+        </select>
+
+        <!-- Input for URL -->
+        <div id="urlInput" class="hidden">
+            <label for="url">Enter URL:</label>
+            <input type="text" id="url" name="url" placeholder="https://example.com">
+        </div>
+
+        <!-- Input for File Upload -->
+        <div id="fileInput" class="hidden">
+            <label for="file">Upload Document:</label>
+            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const choice = document.getElementById('choice');
+        const urlInput = document.getElementById('urlInput');
+        const fileInput = document.getElementById('fileInput');
+
+        choice.addEventListener('change', function() {
+            if (this.value === 'url') {
+                urlInput.classList.remove('hidden');
+                fileInput.classList.add('hidden');
+                document.getElementById('file').value = ''; // Clear file input
+            } else if (this.value === 'file') {
+                fileInput.classList.remove('hidden');
+                urlInput.classList.add('hidden');
+                document.getElementById('url').value = ''; // Clear URL input
+            } else {
+                urlInput.classList.add('hidden');
+                fileInput.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('dataForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // ป้องกันการรีเฟรชหน้าเว็บ
+
+            if (choice.value === 'url') {
+                const url = document.getElementById('url').value;
+                if (url) {
+                    console.log('Submitted URL:', url);
+                } else {
+                    alert('Please enter a URL.');
+                }
+            } else if (choice.value === 'file') {
+                const file = document.getElementById('file').files[0];
+                if (file) {
+                    console.log('Uploaded File:', file.name);
+                } else {
+                    alert('Please upload a file.');
+                }
+            } else {
+                alert('Please select an option.');
+            }
+        });
+    </script>
+
+</body>
+</html>
