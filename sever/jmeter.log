@@ -1,25 +1,25 @@
-2024-09-12 14:39:28,983 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2024-09-12 14:39:29,002 INFO o.a.j.JMeter: Loading user properties from: D:\jmeter\apache-jmeter-5.6.3\bin\user.properties
-2024-09-12 14:39:29,002 INFO o.a.j.JMeter: Loading system properties from: D:\jmeter\apache-jmeter-5.6.3\bin\system.properties
-2024-09-12 14:39:29,003 INFO o.a.j.JMeter: Setting JMeter property: url=https://www.youtube.com/
-2024-09-12 14:39:29,008 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: Version 5.6.3
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: java.version=15.0.2
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: os.name=Windows 10
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: os.arch=amd64
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: os.version=10.0
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: file.encoding=Cp1252
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: java.awt.headless=true
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: Max memory     =1073741824
-2024-09-12 14:39:29,009 INFO o.a.j.JMeter: Available Processors =12
-2024-09-12 14:39:29,016 INFO o.a.j.JMeter: Default Locale=English (EN)
-2024-09-12 14:39:29,016 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2024-09-12 14:39:29,016 INFO o.a.j.JMeter: JMeterHome=D:\jmeter\apache-jmeter-5.6.3
-2024-09-12 14:39:29,017 INFO o.a.j.JMeter: user.dir  =C:\Users\Mekhawat\Desktop\hack\sever
-2024-09-12 14:39:29,017 INFO o.a.j.JMeter: PWD       =C:\Users\Mekhawat\Desktop\hack\sever
-2024-09-12 14:39:29,018 INFO o.a.j.JMeter: IP: 10.59.135.50 Name: MSI FullName: 10.59.135.50
-2024-09-12 14:39:29,026 ERROR o.a.j.JMeter: An error occurred: 
+2024-09-13 13:12:23,647 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-09-13 13:12:23,663 INFO o.a.j.JMeter: Loading user properties from: D:\jmeter\apache-jmeter-5.6.3\bin\user.properties
+2024-09-13 13:12:23,663 INFO o.a.j.JMeter: Loading system properties from: D:\jmeter\apache-jmeter-5.6.3\bin\system.properties
+2024-09-13 13:12:23,663 INFO o.a.j.JMeter: Setting JMeter property: filePath=uploads\9f2d2670a56e5728bb0f57f78d5dcbac
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: Version 5.6.3
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: java.version=15.0.2
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: os.name=Windows 10
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: os.arch=amd64
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: os.version=10.0
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: java.awt.headless=true
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-09-13 13:12:23,668 INFO o.a.j.JMeter: Available Processors =12
+2024-09-13 13:12:23,674 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-09-13 13:12:23,674 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-09-13 13:12:23,675 INFO o.a.j.JMeter: JMeterHome=D:\jmeter\apache-jmeter-5.6.3
+2024-09-13 13:12:23,675 INFO o.a.j.JMeter: user.dir  =C:\Users\Mekhawat\Desktop\hack\sever
+2024-09-13 13:12:23,675 INFO o.a.j.JMeter: PWD       =C:\Users\Mekhawat\Desktop\hack\sever
+2024-09-13 13:12:23,676 INFO o.a.j.JMeter: IP: 172.16.1.44 Name: MSI FullName: MSI
+2024-09-13 13:12:23,683 ERROR o.a.j.JMeter: An error occurred: 
 org.apache.jmeter.report.config.ConfigurationException: The file C:\Users\Mekhawat\Desktop\hack\sever\test.jmx doesn't exist or can't be opened
 	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:950) ~[ApacheJMeter_core.jar:5.6.3]
 	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) ~[ApacheJMeter_core.jar:5.6.3]
